@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: hsl(0, 0%, 7%);
+    height: 58px;
+}
+.navbar > input {
+    color: white;
+    margin-top: 10px;
+    border: 0;
+    border: 1px solid rgb(110, 108, 108);
+}
+
+.navbar-search {
+    height: 33px;
+    margin-left: 30%;
+    width: 35%;
+    border-radius: 40px 0 0 40px;
+    background-color: hsl(0, 0%, 7%);
+    font-size: 15px;
+    padding-left: 10px;
+}
+:focus {
+    outline: none;
+}
+.navbar-submit {
+    border-radius: 0px 40px 40px 0px;
+    height: 35px;
+    width: 50px;
+    background-color: hsla(0, 0%, 100%, 0.08);
+}
+.navbar > image {
+    height: 36px;
+    width: 36px;
+}
+
+.default--video {
+    height: 530px;
+    width: 942px;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
+.theater--video {
+    height: 600px;
+    width: 100%;
+}
